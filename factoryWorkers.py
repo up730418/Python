@@ -2,7 +2,7 @@ import random
 
 def main():
     noSteps = 100 #Number of steps in the production run
-    noWorkerPairs = 6 #Number of teams of workers
+    noWorkerPairs = 3 #Number of teams of workers
     parts = ['A','B'] #Parts avaliable to the workers
     allowEmptyBeltSlot = True #Allow the belt to create an empty slot
 
