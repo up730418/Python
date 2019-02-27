@@ -98,7 +98,6 @@ def runProduction(noSteps, parts, noWorkerPairs, allowEmptyBeltSlot):
 
 ##Display the results of a production run
 def printResults(endProducts):
-    print(endProducts)
     print("Production finished with the following outcome: ")
     for i in endProducts:
         if i != '':
